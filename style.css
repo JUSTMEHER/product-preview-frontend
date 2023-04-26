@@ -1,0 +1,151 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.img2{
+    visibility: hidden;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    height:400px;
+    width:550px;
+    background-color: white;
+    border-radius: 10px;
+    position:absolute;
+    top:200px;
+    z-index: -1;
+    
+}
+.img1{
+    display: block;
+    width:280px;
+    height:400px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+h3{
+    position: absolute;
+    top:18px;
+    left:300px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color:hsl(228, 12%, 48%);
+}
+.h1-1{
+    font-family: 'Fraunces', serif;
+    position: absolute;
+    top:30px;
+    left:300px;
+    color:hsl(212, 21%, 14%);
+}
+
+.info{
+    position: absolute;
+    left:300px;
+    top:170px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    color:hsl(228, 12%, 48%);
+}
+.h1-2{
+    position: absolute;
+    left: 300px;
+    top:270px;
+    color:hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+.cut{
+    position: absolute;
+    top:10px;
+    left:140px;
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sign{
+    height:50px;
+    width: 250px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    position: absolute;
+    top:340px;
+    left:290px;
+
+}
+.cart{
+    position: absolute;
+    top:-5px;
+    left:90px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+.icon{
+    position: absolute;
+   left:-30px;
+}
+.sign:hover{
+    background-color:hsl(157, 31%, 19%) ;
+}
+
+@media(max-width: 600px) {
+    .card{
+        height:600px;
+        width:400px;
+        position: absolute;
+        top:100px;
+    }
+    .img1{
+        visibility: hidden;
+    }
+    .img2{
+        visibility: visible;
+        width:400px;
+        height: 250px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    h3{
+        position: absolute;
+        top:260px;
+        left:30px;
+        
+    }
+    .h1-1{
+        position: absolute;
+        top:280px;
+        left:30px;
+    }
+    .info{
+        position: absolute;
+        left:30px;
+        top:380px;
+        font-size: 17px;
+        
+    }
+    .h1-2{
+        position: absolute;
+        left:30px;
+        top:470px;
+    }
+    .sign{
+        position: absolute;
+        width: 300px;
+        left:30px;
+        top:540px;
+    }
+    .cart{
+        position: absolute;
+        left:110px;
+    }
+}
