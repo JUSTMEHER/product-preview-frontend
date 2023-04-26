@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/JUSTMEHER/product-preview-frontend)
-- Live Site URL: [Add live site URL here](https://justmeher.github.io/product-preview-frontend/)
+- Solution URL: [Solution URL](https://github.com/JUSTMEHER/product-preview-frontend)
+- Live Site URL: [Live Site URL ](https://justmeher.github.io/product-preview-frontend/)
 
 
 ### Built with
